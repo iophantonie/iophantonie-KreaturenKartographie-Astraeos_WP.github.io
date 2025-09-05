@@ -1,14 +1,14 @@
 :root {
-    --highlight_bg: #00800073;
+    --highlight_bg: #05ff61b5;
     --white: #ffffff;
     --text-color: #ffffff;
-    --outline-color: #0751c0;
-    --spawnCommon: greenyellow;
-    --spawnMedium: #f6f861;
-    --spawnRare: #f86161;
-    --cyan: cyan;
+    --outline-color: #c06707;
+    --spawnCommon: rgb(18, 207, 24);
+    --spawnMedium: #eef115;
+    --spawnRare: #f71111;
+    --cyan: rgb(99, 169, 85);
     --red: red;
-    --ahover: #b3ffff;
+    --ahover: #ffe2b3;
     --a: rgb(255, 153, 0);
 }
 
@@ -93,10 +93,6 @@ body {
     column-gap: 30px;
     grid-template-columns: 4fr 10fr;
     flex-wrap: wrap;
-}
-
-.map-frame > div {
-    border: 3px solid #f64904;
 }
 
 .map-map {
@@ -297,6 +293,7 @@ select {
     border-radius: 5px;
     color: #ffffff;
     cursor: pointer;
+    visibility: hidden;
     outline: none;
 }
 
@@ -306,7 +303,7 @@ select:focus > option:active {
 
 select:focus {
     /* background: #8be9f3; */
-    border: 1px solid #5A7EC7;
+    border: 1px solid #c78d5a;
     border-radius: 5px;
 }
 
