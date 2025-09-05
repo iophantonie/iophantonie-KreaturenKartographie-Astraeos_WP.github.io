@@ -1,1 +1,1 @@
-infinityofphoenix-asa-spawnmaps.github.io
+https://infinityofphoenix-asa-spawnmaps.github.io
