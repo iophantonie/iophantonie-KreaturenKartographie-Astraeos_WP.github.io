@@ -1,15 +1,15 @@
 :root {
-    --highlight_bg: #05ff61b5;
+    --highlight_bg: #00800073;
     --white: #ffffff;
     --text-color: #ffffff;
-    --outline-color: #c06707;
-    --spawnCommon: rgb(18, 207, 24);
-    --spawnMedium: #eef115;
-    --spawnRare: #f71111;
-    --cyan: rgb(99, 169, 85);
+    --outline-color: #0751c0;
+    --spawnCommon: greenyellow;
+    --spawnMedium: #f6f861;
+    --spawnRare: #f86161;
+    --cyan: cyan;
     --red: red;
-    --ahover: #ffe2b3;
-    --a: rgb(255, 153, 0);
+    --ahover: #b3ffff;
+    --a: rgb(255, 140, 0);
 }
 
 .ssmall {
