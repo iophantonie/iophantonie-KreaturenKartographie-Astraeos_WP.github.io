@@ -317,6 +317,7 @@ option:checked {
 p.footer {
     margin-inline: auto;
     width: 100%;
+    font-size: 20px;
     text-align: center;
 }
 
