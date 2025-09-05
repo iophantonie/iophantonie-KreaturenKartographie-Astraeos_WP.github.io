@@ -28,7 +28,7 @@ a:hover {
 }
 
 .title {
-    font-size: 51px;
+    font-size: 35px;
     line-height: 1;
 
     /* margin-top: -20px; */
@@ -38,7 +38,7 @@ a:hover {
 }
 
 .logo img {
-    max-width: 200px;
+    max-width: 100px;
 
     /* margin-top: -20px; */
 }
@@ -56,7 +56,7 @@ a:hover {
 }
 
 body {
-    background: #000000;
+    background: black;
     color: var(--text-color);
     font-family: monospace;
 }
@@ -93,6 +93,9 @@ body {
     column-gap: 30px;
     grid-template-columns: 4fr 10fr;
     flex-wrap: wrap;
+}
+
+.map-frame > div {
 }
 
 .map-map {
@@ -251,17 +254,16 @@ div#spawn-details {
     outline: none;
     width: calc(100% - 20px);
     padding-left: 20px;
-    background: #5b2b2b;
-    color: 1px solid #d65a20;
-    border: 1px solid #d65a20;
+    background: #6e2c2c;
+    color: #ffffff;
+    border: 1px solid #f97255;
     border-radius: 5px;
     transition: .3s ease;
 }
 
 .input:focus {
-    background: #5b2b2b;
-    margin-top: 0px;
-    border: 1px solid #EDA60C;
+    background: #434242;
+    border: 1px solid #5A7EC7;
     border-radius: 8px;
 }
 
@@ -287,9 +289,8 @@ select {
     appearance: none;
     -webkit-appearance: none;
     padding: 5px 10px 5px 10px;
-    background-color: #5b2b2b;
-    border: 1px solid #EDA60C;
-    margin-top: 10px;
+    background-color: #6e2c2c;
+    border: 1px solid #f09437;
     border-radius: 5px;
     color: #ffffff;
     cursor: pointer;
@@ -302,7 +303,7 @@ select:focus > option:active {
 
 select:focus {
     /* background: #8be9f3; */
-    border: 1px solid #c78d5a;
+    border: 1px solid #5A7EC7;
     border-radius: 5px;
 }
 
@@ -316,7 +317,6 @@ option:checked {
 p.footer {
     margin-inline: auto;
     width: 100%;
-    font-size: 15px;
     text-align: center;
 }
 
