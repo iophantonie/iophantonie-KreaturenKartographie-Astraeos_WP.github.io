@@ -76,7 +76,6 @@ body {
     margin-inline: auto;
     width: 90vw;
     min-height: 10px;
-    border: 1px solid var(--white);
     margin-bottom: 5px;
     justify-content: center;
     align-items: center;
@@ -251,6 +250,7 @@ div#spawn-details {
 
 .input {
     padding-block: 4px;
+    font-family: Acme;
     outline: none;
     width: calc(100% - 20px);
     padding-left: 20px;
@@ -287,6 +287,7 @@ select#dino-list {
 
 select {
     appearance: none;
+    font-family: Acme;
     -webkit-appearance: none;
     padding: 5px 10px 5px 10px;
     background-color: #6e2c2c;
@@ -316,6 +317,7 @@ option:checked {
 
 p.footer {
     margin-inline: auto;
+    Font-family: Acme;
     width: 100%;
     font-size: 20px;
     text-align: center;
