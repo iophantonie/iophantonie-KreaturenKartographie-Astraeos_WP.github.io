@@ -1,15 +1,15 @@
 :root {
-    --highlight_bg: #00800073;
+    --highlight_bg: #80370073;
     --white: #ffffff;
     --text-color: #ffffff;
-    --outline-color: #0751c0;
-    --spawnCommon: greenyellow;
-    --spawnMedium: #f6f861;
-    --spawnRare: #f86161;
+    --outline-color: #ff9500;
+    --spawnCommon: rgb(153, 243, 19);
+    --spawnMedium: #fbfe2e;
+    --spawnRare: #fc3636;
     --cyan: cyan;
     --red: red;
     --ahover: #b3ffff;
-    --a: cyan;
+    --a: rgb(255, 153, 0);
 }
 
 .ssmall {
@@ -56,7 +56,7 @@ a:hover {
 }
 
 body {
-    background: rgba(0, 0, 0, 0);
+    background: #000000;
     color: var(--text-color);
     font-family: Acme;
 }
@@ -265,7 +265,7 @@ div#spawn-details {
 
 .input:focus {
     background: #434242;
-    border: 1px solid #5A7EC7;
+    border: 1px solid #b68b36;
     border-radius: 8px;
 }
 
@@ -279,7 +279,7 @@ div#spawn-details {
 
 .searchbar svg {
     position: absolute;
-    color: yellow;
+    color: rgb(135, 126, 112);
     top: 5px;
     left: 5px;
 }
@@ -308,14 +308,14 @@ select:focus > option:active {
 
 select:focus {
     /* background: #8be9f3; */
-    border: 1px solid #5A7EC7;
+    border: 1px solid #c7995a;
     border-radius: 5px;
 }
 
 option:hover,
 option:active,
 option:checked {
-    background-color: #175fc2;
+    background-color: #84421f;
     color: white;
 }
 
